@@ -8,7 +8,7 @@ import {
 
 const Navigation = () => {
 	return (
-		<Navbar isBordered shouldHideOnScroll>
+		<Navbar isBordered position="sticky">
 			<NavbarBrand>
 				<h1 className="text-xl font-serif font-bold">Jose Canizales</h1>
 			</NavbarBrand>
@@ -18,8 +18,8 @@ const Navigation = () => {
 						Features
 					</Link>
 				</NavbarItem>
-				<NavbarItem isActive>
-					<Link href="#" aria-current="page">
+				<NavbarItem>
+					<Link color="foreground" href="#">
 						Customers
 					</Link>
 				</NavbarItem>

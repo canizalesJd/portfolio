@@ -4,6 +4,8 @@ import CSSIcon from "./icons/CSSIcon";
 import ReactIcon from "./icons/ReactIcon";
 import TailwindCssIcon from "./icons/TailwindCssIcon";
 import GithubIcon from "./icons/GithubIcon";
+import resumeBuilder from "../images/resumeBuilder.webp";
+import weatherApp from "../images/weatherApp.webp";
 
 const Proyects = () => {
 	return (
@@ -16,7 +18,7 @@ const Proyects = () => {
 					<div className="pr-5 mb-3">
 						<Image
 							alt="Weather App"
-							src="../src/images/weatherApp.webp"
+							src={weatherApp}
 							className="w-full"
 							isZoomed
 						/>
@@ -74,7 +76,7 @@ const Proyects = () => {
 					<div className="pr-5 mb-3">
 						<Image
 							alt="Resume Builder"
-							src="../src/images/resumeBuilder.webp"
+							src={resumeBuilder}
 							className="w-full"
 							isZoomed
 						/>

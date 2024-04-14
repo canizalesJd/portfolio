@@ -1,5 +1,5 @@
 import { Image } from "@nextui-org/react";
-
+import aboutMe from "../images/about-me.jpeg";
 const About = () => {
 	return (
 		<div
@@ -25,12 +25,7 @@ const About = () => {
 					</span>
 					and experimenting with the newest frameworks and libraries.
 				</p>
-				<Image
-					src="../src/images/about-me.jpeg"
-					alt="Jose Canizales"
-					isZoomed
-					className="w-full"
-				/>
+				<Image src={aboutMe} alt="Jose Canizales" isZoomed className="w-full" />
 			</div>
 		</div>
 	);

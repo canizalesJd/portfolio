@@ -1,6 +1,8 @@
 import { Image, Button, Link } from "@nextui-org/react";
 import { MagneticText } from "./ui/MagneticText";
 import LinkedInIcon from "./icons/LinkedInIcon";
+import joseCanizales from "../images/jose-canizales.jpeg";
+
 const Hero = () => {
 	return (
 		<div className="hero container  mx-auto h-[30rem] max-h-scren flex flex-col justify-center max-w-3xl">
@@ -10,7 +12,7 @@ const Hero = () => {
 					width={150}
 					height={150}
 					alt="Jose Canizales"
-					src="../src/images/jose-canizales.jpeg"
+					src={joseCanizales}
 					className="mb-3"
 					shadow="md"
 				/>

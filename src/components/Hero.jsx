@@ -30,7 +30,7 @@ const Hero = () => {
 					}
 				</MagneticText>
 				<p className="text-lg max-w-xl font-light mt-1 text-gray-400">
-					2+ years of experience. Based in San Jose, Costa Rica.
+					2+ years of professional experience. Based in San Jose, Costa Rica.
 				</p>
 				<p className="text-xl max-w-xl mt-1">
 					I love building{" "}

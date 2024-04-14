@@ -1,36 +1,29 @@
-import {
-	Navbar,
-	NavbarBrand,
-	NavbarContent,
-	NavbarItem,
-	Link,
-} from "@nextui-org/react";
+import { Navbar, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
 
 const Navigation = () => {
 	return (
-		<Navbar position="sticky" isBordered>
-			<NavbarBrand>
-				<h1 className="text-xl font-serif font-bold">Jose Canizales</h1>
-			</NavbarBrand>
-			<NavbarContent className="hidden sm:flex gap-4" justify="center">
+		<Navbar maxWidth="2xl" shouldHideOnScroll>
+			<NavbarContent className="flex gap-4 w-full" justify="center">
 				<NavbarItem>
 					<Link color="foreground" href="#">
-						Features
+						Experience
 					</Link>
 				</NavbarItem>
 				<NavbarItem>
 					<Link color="foreground" href="#">
-						Customers
+						Proyects
 					</Link>
 				</NavbarItem>
 				<NavbarItem>
 					<Link color="foreground" href="#">
-						Integrations
+						About
 					</Link>
 				</NavbarItem>
-			</NavbarContent>
-			<NavbarContent justify="end">
-				<NavbarItem>Dark / Light</NavbarItem>
+				<NavbarItem>
+					<Link color="foreground" href="#">
+						Contact
+					</Link>
+				</NavbarItem>
 			</NavbarContent>
 		</Navbar>
 	);

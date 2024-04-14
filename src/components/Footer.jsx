@@ -8,14 +8,22 @@ const Footer = () => {
 		<div className="max-w-3xl footer mx-auto  grid grid-cols-2  py-10 px-5 items-center">
 			<p className="text-md text-gray-300">&copy; {year} Jose Canizales</p>
 			<div className="flex gap-3 items-center justify-end">
-				<Link color="foreground" he>
+				<Link
+					color="foreground"
+					href="https://github.com/canizalesJd"
+					target="_blank">
 					<Button isIconOnly variant="default" className="bg-gray-900">
 						<GithubIcon className="text-2xl" />
 					</Button>
 				</Link>
-				<Button isIconOnly color="primary">
-					<LinkedInIcon className="text-2xl" />
-				</Button>
+				<Link
+					color="foreground"
+					href="https://www.linkedin.com/in/jose-ca%C3%B1izales-a3a216197/"
+					target="_blank">
+					<Button isIconOnly color="primary">
+						<LinkedInIcon className="text-2xl" />
+					</Button>
+				</Link>
 			</div>
 		</div>
 	);

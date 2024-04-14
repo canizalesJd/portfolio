@@ -7,7 +7,9 @@ import GithubIcon from "./icons/GithubIcon";
 
 const Proyects = () => {
 	return (
-		<div className="flex flex-col container mx-auto max-w-2xl pl-5 py-5">
+		<div
+			className="flex flex-col container mx-auto max-w-2xl pl-5 py-5"
+			id="proyects">
 			<h2 className="mb-5 text-3xl">Proyects</h2>
 			<div className="grid md:grid-cols-2 lg:grid-cols-2 gap-5">
 				<div>

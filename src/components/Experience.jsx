@@ -2,7 +2,9 @@ import ExperienceItems from "./data/ExperienceItems";
 
 const Experience = () => {
 	return (
-		<div className="flex flex-col container mx-auto max-w-2xl pl-5 py-5">
+		<div
+			className="flex flex-col container mx-auto max-w-2xl pl-5 py-5"
+			id="experience">
 			<h2 className="mb-5 text-3xl">Work Experience</h2>
 			<ol className="relative border-s border-gray-600">
 				{ExperienceItems.map((item, index) => {

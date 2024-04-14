@@ -48,7 +48,6 @@ const Proyects = () => {
 								href="https://github.com/canizalesJd/weather-app"
 								target="_blank">
 								<Button
-									auto
 									color="default"
 									startContent={<GithubIcon size="18" />}
 									variant="ghost">
@@ -59,7 +58,7 @@ const Proyects = () => {
 								href="https://canizalesjd.github.io/weather-app/"
 								target="_blank">
 								<Button
-									auto
+									variant="shadow"
 									color="default"
 									className="bg-indigo-600"
 									startContent={<LinkIcon size="18" />}>
@@ -106,7 +105,6 @@ const Proyects = () => {
 								href="https://github.com/canizalesJd/resume-builder"
 								target="_blank">
 								<Button
-									auto
 									color="default"
 									startContent={<GithubIcon size="18" />}
 									variant="ghost">
@@ -117,7 +115,7 @@ const Proyects = () => {
 								href="https://resume-builder-one-jade.vercel.app/"
 								target="_blank">
 								<Button
-									auto
+									variant="shadow"
 									color="default"
 									className="bg-indigo-600"
 									startContent={<LinkIcon size="18" />}>

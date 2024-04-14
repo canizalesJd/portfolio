@@ -1,8 +1,23 @@
-# React + Vite
+# Jose Canizales - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![portfolioScreenshot](https://github.com/canizalesJd/portfolio/assets/62571804/5dc4ab6c-1f01-4755-a2a8-1831b763a68a)
 
-Currently, two official plugins are available:
+### Live:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://josecanizales.vercel.app/
+
+### Technologies
+
+- Vite: https://vitejs.dev/guide/
+- React: https://react.dev/
+- Tailwind CSS: https://tailwindcss.com/
+- NextUI: https://nextui.org/
+
+- LunarUI: https://lunarui.dev/
+
+### Hosting
+
+- Vercel: https://vercel.com/
+
+### Credits:
+- Layout inspired by midudev's [portfolio](https://github.com/midudev/porfolio.dev)

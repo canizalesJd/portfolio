@@ -1,4 +1,4 @@
-import { Image, Button } from "@nextui-org/react";
+import { Image, Button, Link } from "@nextui-org/react";
 import { MagneticText } from "./ui/MagneticText";
 import LinkedInIcon from "./icons/LinkedInIcon";
 const Hero = () => {
@@ -39,20 +39,26 @@ const Hero = () => {
 					</span>
 				</p>
 				<div className="mt-5 flex">
-					<Button
-						color="primary"
-						variant="solid"
-						className="mr-3 bg-emerald-600"
-						size="lg">
-						Contact Me
-					</Button>
-					<Button
-						color="primary"
-						variant="bordered"
-						size="lg"
-						startContent={<LinkedInIcon className="text-2xl" />}>
-						LinkedIn
-					</Button>
+					<Link href="mailto:canizalesjd@gmail.com">
+						<Button
+							color="primary"
+							variant="solid"
+							className="mr-3 bg-emerald-600"
+							size="lg">
+							Contact Me
+						</Button>
+					</Link>
+					<Link
+						href="https://www.linkedin.com/in/jose-ca%C3%B1izales-a3a216197/"
+						target="_blank">
+						<Button
+							color="primary"
+							variant="bordered"
+							size="lg"
+							startContent={<LinkedInIcon className="text-2xl" />}>
+							LinkedIn
+						</Button>
+					</Link>
 				</div>
 			</div>
 		</div>

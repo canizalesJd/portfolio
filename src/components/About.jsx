@@ -3,7 +3,7 @@ import { Image } from "@nextui-org/react";
 const About = () => {
 	return (
 		<div
-			className="flex flex-col container mx-auto max-w-3xl pl-5 py-5"
+			className="flex flex-col container mx-auto max-w-3xl px-5 py-5"
 			id="about">
 			<h2 className="mb-3 text-3xl">About Me</h2>
 			<div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">

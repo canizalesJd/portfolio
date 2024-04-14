@@ -1,5 +1,6 @@
-import { Image } from "@nextui-org/react";
+import { Image, Button } from "@nextui-org/react";
 import { MagneticText } from "./ui/MagneticText";
+import LinkedInIcon from "./icons/LinkedInIcon";
 const Hero = () => {
 	return (
 		<div className="hero container  mx-auto h-[30rem] max-h-scren flex flex-col justify-center items-center">
@@ -32,8 +33,27 @@ const Hero = () => {
 					2+ years of experience. Based in San Jose, Costa Rica.
 				</p>
 				<p className="text-xl max-w-xl mt-1">
-					I love building modern, good looking and efficient web applications
+					I love building{" "}
+					<span className="bg-gradient-to-r from-blue-500 via-green-400 to-indigo-500 inline-block text-transparent bg-clip-text">
+						modern, good looking and efficient web apps.
+					</span>
 				</p>
+				<div className="mt-5 flex">
+					<Button
+						color="primary"
+						variant="solid"
+						className="mr-3 bg-emerald-600"
+						size="lg">
+						Contact Me
+					</Button>
+					<Button
+						color="primary"
+						variant="bordered"
+						size="lg"
+						startContent={<LinkedInIcon className="text-2xl" />}>
+						LinkedIn
+					</Button>
+				</div>
 			</div>
 		</div>
 	);

@@ -3,7 +3,7 @@ import { MagneticText } from "./ui/MagneticText";
 import LinkedInIcon from "./icons/LinkedInIcon";
 const Hero = () => {
 	return (
-		<div className="hero container  mx-auto h-[30rem] max-h-scren flex flex-col justify-center max-w-2xl">
+		<div className="hero container  mx-auto h-[30rem] max-h-scren flex flex-col justify-center max-w-3xl">
 			<div className="h-[35rem] absolute inset-0 bg-grid-white/10 bg-grid-16 [mask-image:linear-gradient(180deg,black,transparent)]"></div>
 			<div className="pl-5">
 				<Image

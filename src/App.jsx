@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Experience from "./components/Experience";
 import Proyects from "./components/Proyects";
 import About from "./components/About";
+import Footer from "./components/Footer";
 export default function App() {
 	return (
 		<main className="dark text-foreground bg-background min-h-screen min-w-scren">
@@ -11,6 +12,7 @@ export default function App() {
 			<Experience />
 			<Proyects />
 			<About />
+			<Footer />
 		</main>
 	);
 }

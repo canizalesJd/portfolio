@@ -20,7 +20,7 @@ const Experience = () => {
 							<p className="mb-1 text-md font-normal leading-none text-gray-300 my-1">
 								{item.location}
 							</p>
-							<p className="mb-4 text-base font-normal text-gray-400">
+							<p className="mb-4 text-base font-normal text-gray-400 max-w-xl">
 								{item.description}
 							</p>
 						</li>

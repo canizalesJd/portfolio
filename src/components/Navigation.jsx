@@ -8,7 +8,7 @@ import {
 
 const Navigation = () => {
 	return (
-		<Navbar isBordered position="sticky">
+		<Navbar position="sticky" isBordered>
 			<NavbarBrand>
 				<h1 className="text-xl font-serif font-bold">Jose Canizales</h1>
 			</NavbarBrand>
